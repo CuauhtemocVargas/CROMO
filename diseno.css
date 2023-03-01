@@ -1,0 +1,29 @@
+body{
+    display: grid;
+    grid-template-rows: repeat(10, 10%);
+    grid-template-columns: repeat(10, 10%);
+    background-color: rgb(46, 41, 71);
+}
+header{
+    grid-row: 1;
+    grid-column: 1/10;
+    background-color: rgb(229, 255, 79);
+    color: rgb(157, 10, 255);
+    font-size: larger;
+    text-align: center;
+}
+#nombre{
+    grid-column-start:1;
+    grid-column-end: 10;
+    grid-row: 5;
+    font-size: xx-large;
+    text-align: center;
+}
+footer{
+    grid-row: 10;
+    grid-column: 1/10;
+    background-color: rgb(229, 255, 79);
+    color: rgb(157, 10, 255);
+    font-size: larger;
+    text-align: center;
+}
