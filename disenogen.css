@@ -1,0 +1,11 @@
+body{
+    display: flex;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    grid-row: 2;
+    font-size: x-large;
+    
+    
+}

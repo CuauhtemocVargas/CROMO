@@ -52,11 +52,27 @@ li{
     font-size: x-large;
     
 }
+
 nav{
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-rows: repeat(10, 10%);
+    grid-template-columns: repeat(10, 10%);
     grid-row: 2;
+    grid-column: 1/12;
     font-size: x-large;
     
+}
+.platillos{
+    grid-column: 1/6;
+    grid-row: 1;
+    text-align: center;
+    
+}
+.bebidas{
+    grid-row: 1;
+    grid-column: 7/12;
+    text-align: center;
+}
+.entradas{
     
 }
